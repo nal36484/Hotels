@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/departure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:text="@string/departure"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/sp"
+        app:layout_constraintStart_toEndOf="@+id/departure"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/countryCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:text="@string/country_city"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/departure"/>
+
+    <TextView
+        android:id="@+id/egyptHurghada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/egypt_hurghada"
+        app:layout_constraintStart_toEndOf="@+id/departure"
+        app:layout_constraintTop_toBottomOf="@+id/sp"/>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:text="@string/data"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryCity"/>
+
+    <TextView
+        android:id="@+id/numberData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/number_data"
+        app:layout_constraintStart_toEndOf="@+id/departure"
+        app:layout_constraintTop_toBottomOf="@+id/egyptHurghada"/>
+
+    <TextView
+        android:id="@+id/countNights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:text="@string/count_nights"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/data"/>
+
+    <TextView
+        android:id="@+id/sevenNights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/seven_nights"
+        app:layout_constraintStart_toEndOf="@+id/departure"
+        app:layout_constraintTop_toBottomOf="@+id/numberData"/>
+
+    <TextView
+        android:id="@+id/hotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:text="@string/hotel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countNights"/>
+
+    <TextView
+        android:id="@+id/hotelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/hotelName"
+        app:layout_constraintStart_toEndOf="@+id/departure"
+        app:layout_constraintTop_toBottomOf="@+id/sevenNights"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:text="@string/number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotel"/>
+
+    <TextView
+        android:id="@+id/aboutNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/about_number"
+        app:layout_constraintStart_toEndOf="@+id/departure"
+        app:layout_constraintTop_toBottomOf="@+id/hotelName"/>
+
+    <TextView
+        android:id="@+id/Nutrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:text="@string/nutrition"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number"/>
+
+    <TextView
+        android:id="@+id/allInclusive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/all_inclusive"
+        app:layout_constraintStart_toEndOf="@+id/departure"
+        app:layout_constraintTop_toBottomOf="@+id/aboutNumber"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

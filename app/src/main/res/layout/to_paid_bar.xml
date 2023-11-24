@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:orientation="vertical"
+    android:background="@drawable/bars_bg">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/toPaid"
+        android:layout_width="343dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/blue_shape"
+        android:text="Оплатить 198 036 ₽" />
+
+    <View
+        android:layout_width="134dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/home_indicator" />
+
+</LinearLayout>

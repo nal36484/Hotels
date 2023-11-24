@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grade">#FFA800</color>
+    <color name="gradeBackground">#33FFA800</color>
+    <color name="blue">#0D72FF</color>
+    <color name="blue_bg">#1A0D72FF</color>
+    <color name="grey">#828796</color>
+    <color name="about_bg">#FBFBFC</color>
+    <color name="essentials">#2C3035</color>
+    <color name="vector">#26828796</color>
+    <color name="phone_number">#A9ABB7</color>
+    <color name="phone_number_bg">#F6F6F9</color>
+    <color name="arrow_bg">#1A0D72FF</color>
+</resources>

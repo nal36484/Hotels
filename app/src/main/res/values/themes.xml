@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Hotels" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Hotels" parent="Base.Theme.Hotels" />
+
+    <style name="about_style" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/about_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+</resources>

@@ -1,6 +1,6 @@
-package com.example.domain.repositories
+package com.example.hotels.domain.repositories
 
-import com.example.domain.model.TouristDto
+import com.example.hotels.domain.model.TouristDto
 import kotlinx.coroutines.flow.Flow
 
 interface TouristRepository {

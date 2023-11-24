@@ -1,4 +1,4 @@
-package com.example.domain.model
+package com.example.hotels.domain.model
 
 data class TouristDto(
     val id: Int,

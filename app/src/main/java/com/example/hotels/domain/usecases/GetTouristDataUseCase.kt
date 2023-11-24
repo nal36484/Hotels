@@ -1,7 +1,7 @@
-package com.example.domain.usecases
+package com.example.hotels.domain.usecases
 
-import com.example.domain.model.TouristDto
-import com.example.domain.repositories.TouristRepository
+import com.example.hotels.domain.model.TouristDto
+import com.example.hotels.domain.repositories.TouristRepository
 import kotlinx.coroutines.flow.Flow
 
 class GetTouristDataUseCase(private val repository: TouristRepository) {

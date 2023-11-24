@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.domain.usecases.GetTouristDataUseCase
+import com.example.hotels.domain.usecases.GetTouristDataUseCase
 import com.example.hotels.presentation.ui.reservation.formatters.TouristFormatter
 import com.example.hotels.presentation.ui.reservation.models.Tourist
 import kotlinx.coroutines.launch

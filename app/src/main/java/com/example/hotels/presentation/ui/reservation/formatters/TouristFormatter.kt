@@ -1,6 +1,6 @@
 package com.example.hotels.presentation.ui.reservation.formatters
 
-import com.example.domain.model.TouristDto
+import com.example.hotels.domain.model.TouristDto
 import com.example.hotels.presentation.ui.reservation.models.Tourist
 
 class TouristFormatter {

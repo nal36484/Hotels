@@ -1,4 +1,4 @@
-package com.example.data.repositories.models
+package com.example.hotels.data.repositories.models
 
 data class TouristNetWork(
     val id: Int?,

@@ -1,8 +1,8 @@
-package com.example.data.repositories
+package com.example.hotels.data.repositories
 
-import com.example.data.mappers.TouristMapper
-import com.example.data.repositories.retrofitexample.ApiService
-import com.example.domain.model.TouristDto
+import com.example.hotels.data.mappers.TouristMapper
+import com.example.hotels.data.repositories.retrofitexample.ApiService
+import com.example.hotels.domain.model.TouristDto
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 

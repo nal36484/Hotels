@@ -1,7 +1,6 @@
-package com.example.data.repositories.retrofitexample
+package com.example.hotels.data.repositories.retrofitexample
 
-import com.example.data.repositories.models.TouristNetWork
-import com.example.data.repositories.retrofitexample.ApiService
+import com.example.hotels.data.repositories.models.TouristNetWork
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 

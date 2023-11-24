@@ -1,11 +1,11 @@
-package com.example.data.mappers
+package com.example.hotels.data.mappers
 
-import com.example.data.repositories.models.TouristNetWork
-import com.example.domain.model.TouristDto
+import com.example.hotels.data.repositories.models.TouristNetWork
+import com.example.hotels.domain.model.TouristDto
 
 class TouristMapper {
-    fun map(data: List<TouristNetWork>): List<TouristDto> {
-        return data.mapNotNull { data ->
+    fun map(dto: List<TouristNetWork>): List<TouristDto> {
+        return dto.mapNotNull { data ->
             if (data.id != null) {
                 TouristDto(
                     id = data.id,
